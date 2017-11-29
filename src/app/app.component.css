@@ -1,0 +1,31 @@
+header {
+  padding: 0.8em;
+  font-size: 18px;
+  color: #fafafa;
+  margin-bottom: 10px;
+  font-weight: lighter;
+}
+
+header.header-6 {
+  background-color: #0095D3;
+}
+nav a {
+  padding: 5px 50px;
+  text-decoration: none;
+  margin-top: 10px;
+  color: black;
+  font-family:"Arial Narrow";
+}
+nav a:hover {
+  border-style: ridge;
+  border-color:deepskyblue;
+}
+Div h5 {
+  padding: 0.8em;
+  font-size: 18px;
+  color: black;
+  margin-bottom: 10px;
+  font-weight: lighter;
+  font-family:sans-serif;
+}
+

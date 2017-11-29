@@ -1,0 +1,22 @@
+div.container-fluid{
+  background-color: white;
+
+}
+div.header{
+  background-color: white;
+}
+hr{
+  color: #333333;
+  height: 1px;
+  width: 100%;
+  margin-top: 1%;
+}
+ngx-charts-pie-chart{
+  background-color: white;
+  float: right;
+}
+
+ul.legend-labels{
+  background: black;
+  color: white;
+}
