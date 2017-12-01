@@ -1,22 +1,25 @@
-div.container-fluid{
-  background-color: white;
-
-}
-div.header{
-  background-color: white;
-}
-hr{
-  color: #333333;
-  height: 1px;
-  width: 100%;
-  margin-top: 1%;
-}
-ngx-charts-pie-chart{
-  background-color: white;
-  float: right;
+div.container.system-compliance{
+background-color: white;
+  height: 160px;
+  padding-bottom: 20px;
 }
 
-ul.legend-labels{
-  background: black;
-  color: white;
+div.compliance-title{
+  padding-right: 12px;
+
+}
+div.content-container{
+  margin-left: 1px;
+  background-color: #fafafa;
+}
+div.row.compliance-charts{
+  background-color: #fafafa;
+  margin: 5px;
+  width: 300px;
+}
+
+.col-lg-4{
+}
+.detail{
+  font-size: 7px;
 }

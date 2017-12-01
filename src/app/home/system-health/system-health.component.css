@@ -1,17 +1,32 @@
-div.content-container{
+div.container-fluid.system-health {
   background-color: white;
-  width: 50%;
-  margin-bottom: 10px;
-  margin-left: 20px;
-  border-bottom-color: darkgray;
-  border-bottom-width: 20px;
-
-
+  height: 300px;
+  margin-bottom: 30px;
 }
 
-div.header-7{
-  font-size: smaller;
-  color: black;
-  font-weight: 600;
+div.compliance-title{
+  padding-right: 12px;
 
+}
+div.content-container{
+  margin-left: 1px;
+  background-color: #fafafa;
+}
+div.row.compliance-charts{
+  background-color: #fafafa;
+  margin: 5px;
+  width: 300px;
+}
+
+h6{
+  margin-top: 1px;
+}
+.col-lg-4{
+}
+.detail{
+  font-size: 7px;
+}
+
+hr{
+  margin-bottom:5px;
 }

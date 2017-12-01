@@ -1,4 +1,19 @@
-div.card-header{
-  font-size: smaller;
-  font-weight: 600;
+div.container-fluid.recent-activity{
+  background-color: white;
+  padding-bottom: 10px;
+
+}
+
+div.compliance-title{
+  padding-right: 12px;
+
+}
+.col-lg{
+  background-color: lightgray;
+  height: 60px;
+  margin: 8px;
+}
+
+.details{
+  font-size: x-small;
 }

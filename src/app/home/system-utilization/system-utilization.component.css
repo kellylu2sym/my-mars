@@ -1,7 +1,24 @@
-div.card-header{
-  font-size: smaller;
+div.container-fluid.system-utillization{
+  background-color: white;
+  padding-bottom: 10px;
 
 }
-h5{
-  font-weight: 800;
+
+div.compliance-title{
+  padding-right: 12px;
+
+}
+div.content-container{
+  background-color: #fafafa;
+}
+div.row.compliance-charts{
+  background-color: #fafafa;
+  margin: 5px;
+  width: 300px;
+}
+
+.col-lg-4{
+}
+.detail{
+  font-size: 7px;
 }

@@ -4,21 +4,92 @@ h5{
     background-color: white;
 }
 
-div{
+div.row.toolbar{
   background-color: white;
   color: black;
 }
 
-.col-md-2{
-  margin-left: 80px;
-  margin-bottom: 50px;
-  text-align: left;
+.col-lg-2{
+  margin-left: 0px;
+  height: 65px;
+  margin-left: 10px;
+  padding-right: 0px;
 }
 
+.toolbar h6{
+  margin-left: 10px;
+  text-align: left;
+  margin-top: 10px;
+
+}
 div.progress-static{
   margin-left: 10px;
-  height: 8px;
-  width: 120px;
+  height: 12px;
+  width: 100px;
   float:left;
+}
+div.storage-title{
+  color: gray;
+  font-size: 40px;
+  test-align: center;
+  margin-left: 20px;
+}
+div.server-title{
+  color: gray;
+  font-size: 40px;
+  test-align: center;
+}
+div.server{
+  font-weight: 600;
+  font-size: x-small;
+  color: deepskyblue;
+  margin-right: 5px;
+}
+.col-lg-1{
+  font-size: 40px;
+  font-weight: 300;
+  color: lightgray;
+  margin-bottom: 0px;
+  margin-top: 10px;
+  test-align: center;
+}
+.vl {
+  border-left: 1px solid lightgray;
+  height: 60px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 0;
+}
+div.vline{
+  margin-top: 5px;
+}
+.storage-domain{
+  font-weight: 600;
+  font-size: x-small;
+  width: 150px;
+  height: 20px;
+  color: deepskyblue;
+}
 
+div.free-HD{
+  font-size: x-small;
+  text-align: right;
+}
+
+div.row.free-HD-processTitle{
+  height: 32px;
+  margin-left: 15px;
+}
+
+div.free-HD.percent-label{
+  font-size: larger;
+  color: deepskyblue;
+}
+
+div.progress-title-below{
+  font-size: x-small;
+  margin-top: 5px;
+  text-align: left;
+  height: 20px;
 }

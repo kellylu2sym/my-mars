@@ -10,10 +10,10 @@ export class SystemComplianceComponent implements OnInit {
   single: any[];
   multi: any[];
 
-  view: any[] = [100, 60];
+  view: any[] = [120, 100];
 
   colorScheme = {
-    domain: ['#green', 'red', 'yellow']
+    domain: ['green', 'red', 'yellow']
   }
   // line, area
   autoScale = true;

@@ -1,3 +1,11 @@
 button.btn.btn-primary {
   background-color: #0095D3;
 }
+
+div.col-lg-4.notification{
+  background-color: #fafafa;
+}
+
+div.col-lg-4.health{
+  background-color: #fafafa;
+}

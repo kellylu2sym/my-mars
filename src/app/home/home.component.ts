@@ -8,12 +8,12 @@ import { Component } from '@angular/core';
   '<button class="btn btn-primary btn-sm">Expand Cluster</button>' +
   '<div class= "container-fluid">' +
   '<div class="row">' +
-  '<div class="col-sm-4"><app-system-compliance></app-system-compliance></div>' +
-  '<div class="col-sm-4"><app-system-utilization></app-system-utilization></div>' +
-  '<div class="col-sm-4"><app-rencent-activity></app-rencent-activity></div>' +
-  '<div class="col-sm-4"><app-system-health></app-system-health></div>' +
-  '<div class="col-sm-4"></div>' +
-  '<div class="col-sm-4"><app-notification></app-notification></div>' +
+  '<div class="col-lg-4 compliance"><app-system-compliance></app-system-compliance></div>' +
+  '<div class="col-lg-4 utilization"><app-system-utilization></app-system-utilization></div>' +
+  '<div class="col-lg-4 activity"><app-rencent-activity></app-rencent-activity></div>' +
+  '<div class="col-lg-4 health"><app-system-health></app-system-health></div>' +
+  '<div class="col-lg-4"></div>' +
+  '<div class="col-lg-4 notification"><app-notification></app-notification></div>' +
     '</div>' +
   '</div>'
 })

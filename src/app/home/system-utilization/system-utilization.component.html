@@ -1,1 +1,33 @@
-<p>system utilization</p>
+<div class = "container-fluid  system-utillization">
+  <div class="compliance-title">
+    <h6>System Utillization</h6>
+    <hr>
+  </div>
+  <div class = " content-container">
+    <div class="row compliance-charts">
+      <div class="col-lg-4">
+        <div class="detail">Version Applied:3.2.1</div>
+        <div class="detail">Update July 19, 2015</div>
+        <div class="detail">Run Compliance Report</div>
+      </div>
+      <div class="col-lg-4">
+        <ngx-charts-pie-chart
+          [view]="view"
+          [scheme]="colorScheme"
+          [results]="single"
+          [doughnut]="true"
+          [legend]="false"
+          [arcWidth]="0.15">
+        </ngx-charts-pie-chart>
+      </div>
+      <div class="col-lg-4">
+        <div class="detail"><clr-icon shape="success-standard" class="is-solid is-success"></clr-icon>Compliant</div>
+        <div class="detail"><clr-icon shape="exclamation-circle" class="is-solid is-error" size="20"></clr-icon>Non-Compliant</div>
+        <div class="detail"><clr-icon shape="exclamation-triangle" class="is-solid is-warning" size="20"></clr-icon>Error</div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+

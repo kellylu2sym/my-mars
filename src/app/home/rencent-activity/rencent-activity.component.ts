@@ -1,24 +1,26 @@
 import { Component, OnInit } from '@angular/core';
-
+import {single, multi} from './data';
 @Component({
   selector: 'app-rencent-activity',
   templateUrl: './rencent-activity.component.html',
-  styleUrls: ['./rencent-activity.component.css'],
-  template: '<div class="row">' +
-  '    <div class="col-lg-5 col-md-8 col-sm-12 col-xs-12">\n' +
-  '        <div class="card">\n' +
-  '            <div class="card-header">\n' +
-  '                Recent Activity' +
-  '            </div>' +
-  '        </div>\n' +
-  '    </div>\n' +
-  '</div>'
+  styleUrls: ['./rencent-activity.component.css']
 })
 export class RencentActivityComponent implements OnInit {
 
-  constructor() { }
+  single: any[];
+  multi: any[];
+
+  view: any[] = [120, 100];
+
+  colorScheme = {
+    domain: ['green', 'red', 'yellow']
+  }
+  // line, area
+  autoScale = true;
+  constructor() {
+    Object.assign(this, {single, multi});
+  }
 
   ngOnInit() {
   }
-
 }

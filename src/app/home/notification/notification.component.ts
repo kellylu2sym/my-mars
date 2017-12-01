@@ -1,22 +1,25 @@
 import { Component, OnInit } from '@angular/core';
-
+import {single, multi} from './data';
 @Component({
   selector: 'app-notification',
   templateUrl: './notification.component.html',
-  styleUrls: ['./notification.component.css'],
-  template: '<div class="row">' +
-  '    <div class="col-lg-5 col-md-8 col-sm-12 col-xs-12">\n' +
-  '        <div class="card">\n' +
-  '            <div class="card-header">\n' +
-  '                Notification' +
-  '            </div>' +
-  '        </div>\n' +
-  '    </div>\n' +
-  '</div>'
+  styleUrls: ['./notification.component.css']
 })
 export class NotificationComponent implements OnInit {
 
-  constructor() { }
+  single: any[];
+  multi: any[];
+
+  view: any[] = [120, 100];
+
+  colorScheme = {
+    domain: ['green', 'red', 'yellow']
+  }
+  // line, area
+  autoScale = true;
+  constructor() {
+    Object.assign(this, {single, multi});
+  }
 
   ngOnInit() {
   }
